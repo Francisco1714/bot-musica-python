@@ -12,7 +12,7 @@ load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 # Ruta del ejecutable de ffmpeg
-ffmpeg_executable = "C:/Users/SONIC/Desktop/Programación/ffmpeg-7.1.1-essentials_build/bin/ffmpeg.exe"  # Ruta correcta de ffmpeg
+ffmpeg_executable = "ffmpeg"  # Ruta correcta de ffmpeg
 
 # Configurar los intents
 intents = discord.Intents.default()
